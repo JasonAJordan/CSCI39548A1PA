@@ -119,8 +119,6 @@ h1{
 }
 
 
-
-
 .aboutmeBlock{
   /* height: 400px; */
   width: 600px;
@@ -151,6 +149,7 @@ h1{
   object-fit: cover;
 }
 
+/* this wasn't used */
 .aboutmeimage2{
   width: 150px;
   height: 200px;
@@ -168,3 +167,4 @@ h1{
   100% { background-position: 0% 100%; }
 }
 
+/* I'm just trying to hit 5 branched commits here */

@@ -8,8 +8,8 @@ CSCI39548 Assignment 1 Part 1
 
 ### Branches
 
-I ended up doing one branch for most of the work then I made a 2nd one just for the readme.md.
-This is because I honestly just zoned in and made both my about me and career in one go. 
+I ended up doing one branch for most of the work then I made a 2nd one just for the readme.md. Thrid branch was just for minor css changes.
+This is because I honestly just zoned in and made both my about me and career pages in one go. 
 
 
 
