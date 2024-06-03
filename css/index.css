@@ -143,6 +143,7 @@ h1{
     /* border: 1px solid red; */
 }
 
+/* this wasn't used */
 .aboutmeimage1{
   width: 150px;
   height: 150px;
@@ -156,6 +157,18 @@ h1{
   object-fit: fill ;
 }
 
+/* for centering images vertically */
+.imageWarper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.careerImage{
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
 .meimage {
   width: 200px;
   height: 300px;
@@ -166,5 +179,3 @@ h1{
   0% { background-position: 0% 0%; }
   100% { background-position: 0% 100%; }
 }
-
-/* I'm just trying to hit 5 branched commits here */
