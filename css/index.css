@@ -14,17 +14,20 @@ h1{
 
 } */
 
+/*I need this because my divs gets lost sometimes*/
 .bordersForDummies {
   border: 1px solid red;
 }
+
 /* 
 .stage {
   height: 200px;
   width: 200px;
 } */
 
+
 .stage {
-  animation: animateBg 45s linear infinite;
+  animation: animateBg 40s linear infinite;
   background-image: linear-gradient(24deg,#627df3,#a295f5,#64b3d9,#42eca6,#64b3d9,#208ea2,#64b3d9, #498ada, #64b3d9,#627df3,#a295f5);
   background-size: 100% 1100%;
   height: 100vh;
@@ -32,8 +35,8 @@ h1{
 }
 
 .stage2 {
-  animation: animateBg 30s linear infinite;
-  background-image: linear-gradient(92deg,#627df33d,#a295f54b,#64b4d96b,#42eca548,#64b4d94d,#208ea24f,#64b4d957, #498ada60, #64b4d93a,#a295f552);
+  animation: animateBg 25s linear infinite;
+  background-image: linear-gradient(92deg,#627df33d,#42eca560,#a295f54b,#64b4d96b,#64b4d94d,#208ea24f,#64b4d957, #498ada60, #64b4d93a,#a295f552);
   background-size: 600% 100%;
   height: 100vh;
   width: 100vw;
@@ -119,8 +122,6 @@ h1{
 }
 
 
-
-
 .aboutmeBlock{
   /* height: 400px; */
   width: 600px;
@@ -145,16 +146,31 @@ h1{
     /* border: 1px solid red; */
 }
 
+/* this wasn't used */
 .aboutmeimage1{
   width: 150px;
   height: 150px;
   object-fit: cover;
 }
 
+/* this wasn't used */
 .aboutmeimage2{
   width: 150px;
   height: 200px;
   object-fit: fill ;
+}
+
+/* for centering images vertically */
+.imageWarper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.careerImage{
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
 }
 
 .meimage {
@@ -167,4 +183,3 @@ h1{
   0% { background-position: 0% 0%; }
   100% { background-position: 0% 100%; }
 }
-
