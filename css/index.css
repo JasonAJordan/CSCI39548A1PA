@@ -108,6 +108,7 @@ h1{
   flex-direction: row;
   justify-content: center;
   gap: 40px;
+  margin-bottom: 8px;
 }
 
 .pseudobuttons{
@@ -138,7 +139,7 @@ h1{
 
   height: 56px;
   padding: 0px 18px;
-  background-color: #8a8a8a;
+  background-color: #a1a1a1;
   border-radius:10px;
 }
 
@@ -214,6 +215,12 @@ h1{
 .careerImage{
   width: 200px;
   height: 150px;
+  object-fit: cover;
+}
+
+.partBimage{
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
 
