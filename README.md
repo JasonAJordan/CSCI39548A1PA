@@ -1,5 +1,5 @@
 # CSCI39548A1PA
-CSCI39548 Assignment 1 Part 1
+CSCI39548 Assignment 1 Part 1 & 2
 
 
 ### Here is the link to the site.
