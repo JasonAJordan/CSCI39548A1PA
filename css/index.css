@@ -28,16 +28,18 @@ h1{
 
 .stage {
   animation: animateBg 40s linear infinite;
-  background-image: linear-gradient(24deg,#627df3,#a295f5,#64b3d9,#42eca6,#64b3d9,#208ea2,#64b3d9, #498ada, #64b3d9,#627df3,#a295f5);
+  background-image: linear-gradient(24deg,#627df3,#a295f5,#64b3d9,#2ec586,#64b3d9,#208ea2,#64b3d9, #498ada, #64b3d9,#627df3,#a295f5);
+
   background-size: 100% 1100%;
   height: 100vh;
   width: 100vw;
 }
 
 .stage2 {
-  animation: animateBg 25s linear infinite;
-  background-image: linear-gradient(92deg,#627df33d,#42eca560,#a295f54b,#64b4d96b,#64b4d94d,#208ea24f,#64b4d957, #498ada60, #64b4d93a,#a295f552);
-  background-size: 600% 100%;
+  animation: animateBg2 60s linear infinite;
+  background-image: linear-gradient(1deg,#627df33d,#42eca560,#a295f54b,#64b4d96b,#64b4d94d,#208ea24f,#64b4d957, #498ada60, #64b4d93a,#a295f552);
+  background-size: 100% 1100%;
+
   height: 100vh;
   width: 100vw;
 }
@@ -100,6 +102,15 @@ h1{
   gap: 120px;
 }
 
+.addOrRemoveBtns{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 8px;
+}
+
 .pseudobuttons{
   display: flex;
   flex-direction: column;
@@ -113,6 +124,33 @@ h1{
   border-radius: 5px 20px 10px;
 
   transition: 0.5s;
+}
+
+.pseudobuttons2{
+
+  border-radius:10px;
+}
+
+.pseudoNOCLICKbuttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  height: 56px;
+  padding: 0px 18px;
+  background-color: #a1a1a1;
+  border-radius:10px;
+}
+
+.pseudobuttonsWide{
+  min-width: 330px;
+  /* width: 268px */
+}
+
+.pseudobuttonsWide2{
+  min-width: 276px;
+  /* width: 268px */
 }
 
 .pseudobuttons:hover {
@@ -143,7 +181,14 @@ h1{
 
 .aboutmeDivOneTextCont{
   max-width: 300px;
+
     /* border: 1px solid red; */
+}
+
+.listTextCont{
+  max-width: 200px;
+  min-width: 200px;
+      /* border: 1px solid red; */
 }
 
 /* this wasn't used */
@@ -173,13 +218,33 @@ h1{
   object-fit: cover;
 }
 
+.partBimage{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
 .meimage {
   width: 200px;
   height: 300px;
   object-fit: cover;
 }
 
+.gotoPartB{
+  padding: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 @keyframes animateBg {
   0% { background-position: 0% 0%; }
   100% { background-position: 0% 100%; }
+}
+
+
+@keyframes animateBg2 {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 0% 100%; }
+
 }
